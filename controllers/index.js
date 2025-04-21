@@ -42,6 +42,7 @@ const updateClothing = async (req, res) => {
             clothing.size = req.body.size;
             clothing.description = req.body.description;
             clothing.price = req.body.price;
+            clothing.quantity = req.body.quantity
             await clothing.save();
 
             return res.status(200).json({ updated: clothing });
