@@ -87,3 +87,4 @@ module.exports = {
     updateClothing,
     getClothing
 };
+//...
